@@ -1,0 +1,88 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    background-color: white;
+    color:  #0e0e0e;
+    height: 100%;
+    
+}
+header {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 2;
+}
+
+ 
+nav {
+    border-top: 2px  solid black;
+    text-align: right;
+    margin-bottom: 20px;
+    position: fixed;
+    top: 120px;
+    width: 100%;
+    background-color: white;
+    z-index: 2;
+}
+nav li {
+    display: inline-block;
+    width: 90px;
+    margin: 5px;
+    text-align: center;
+}
+
+main{
+    background-color: white;
+    z-index: 1;
+    max-width: 900px;
+    margin: 0 auto;
+} 
+section{
+    text-align: center;
+    position: relative;
+    top: 120px;
+    padding-top: 120px;
+}
+.title{
+    text-align: left;
+}
+.about-me-container{
+    display: flex;
+    margin-top: 20px;
+    flex-flow: row wrap;
+}
+
+.about-me-text{
+    max-width: 600px;
+    border-radius: 15px;  
+}
+.about-me-text p{
+    text-align:left;
+}
+
+.myface  {
+    width: 300px;
+    border-radius: 50%;  
+    
+}
+.projects-container{
+    margin-top: 40px;
+    text-align: left;
+    border-top: 1px solid black;
+}
+
+.project-detail-container{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    
+}
+.project-detail-item{
+  background: tomato;
+  padding: 5px;
+  width: 290px;
+  height: 200px;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
